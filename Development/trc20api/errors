@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "/home/jbro/.dots/Development/trc20api/scrape.py", line 65, in <module>
+    scrape_api_trc20()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/jbro/.dots/Development/trc20api/scrape.py", line 15, in scrape_api_trc20
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+  File "/home/jbro/.dots/Development/trc20api/.venv/lib/python3.13/site-packages/selenium/webdriver/chrome/webdriver.py", line 47, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/jbro/.dots/Development/trc20api/.venv/lib/python3.13/site-packages/selenium/webdriver/chromium/webdriver.py", line 69, in __init__
+    super().__init__(command_executor=executor, options=options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jbro/.dots/Development/trc20api/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 261, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/home/jbro/.dots/Development/trc20api/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 362, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jbro/.dots/Development/trc20api/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/jbro/.dots/Development/trc20api/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created
+from unknown error: cannot find Chrome binary; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+#0 0x55bb4ffb026a <unknown>
+#1 0x55bb4fa5aab0 <unknown>
+#2 0x55bb4fa928de <unknown>
+#3 0x55bb4fa90307 <unknown>
+#4 0x55bb4fae0696 <unknown>
+#5 0x55bb4fadfd56 <unknown>
+#6 0x55bb4fad1f73 <unknown>
+#7 0x55bb4fa9eaeb <unknown>
+#8 0x55bb4fa9f751 <unknown>
+#9 0x55bb4ff74b7b <unknown>
+#10 0x55bb4ff78959 <unknown>
+#11 0x55bb4ff5b959 <unknown>
+#12 0x55bb4ff79518 <unknown>
+#13 0x55bb4ff4010f <unknown>
+#14 0x55bb4ff9d918 <unknown>
+#15 0x55bb4ff9daf6 <unknown>
+#16 0x55bb4ffaf586 <unknown>
+#17 0x7efc180a9f08 <unknown>

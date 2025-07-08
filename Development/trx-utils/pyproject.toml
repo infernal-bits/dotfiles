@@ -1,0 +1,16 @@
+[project]
+name = "trx-utils"
+version = "0.1.0"
+description = "Utilities for using the TRON blockchain with USDT-TRC20 support"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alive-progress>=3.2.0",
+    "art>=6.5",
+    "blessed>=1.21.0",
+    "pyfiglet>=1.0.3",
+    "requests>=2.32.4",
+    "tqdm>=4.67.1",
+    "tronpy>=0.5.0",
+    "urllib3>=2.5.0",
+]
