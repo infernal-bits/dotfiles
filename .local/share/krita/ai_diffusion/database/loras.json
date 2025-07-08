@@ -1,0 +1,8 @@
+[
+  {
+    "id": "Hyper-SDXL-8steps-CFG-lora.safetensors",
+    "name": "Hyper-SDXL-8steps-CFG-lora",
+    "source": 2,
+    "format": "lora"
+  }
+]
