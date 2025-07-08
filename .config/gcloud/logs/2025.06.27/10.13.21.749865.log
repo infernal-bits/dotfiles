@@ -1,0 +1,115 @@
+2025-06-27 10:13:21,840 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2025-06-27 10:13:21,953 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2025-06-27 10:13:21,956 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [[USER@]INSTANCE: "adblocker"]
+2025-06-27 10:13:22,387 WARNING  root            The private SSH key file for gcloud does not exist.
+2025-06-27 10:13:22,387 WARNING  root            The public SSH key file for gcloud does not exist.
+2025-06-27 10:13:22,387 WARNING  root            You do not have an SSH key for gcloud.
+2025-06-27 10:13:22,387 WARNING  root            SSH keygen will be executed to generate a key.
+2025-06-27 10:13:22,387 DEBUG    root            Running command [/sbin/ssh-keygen -t rsa -f /home/jbro/.ssh/google_compute_engine].
+2025-06-27 10:13:22,387 DEBUG    root            Executing command: ['/sbin/ssh-keygen', '-t', 'rsa', '-f', '/home/jbro/.ssh/google_compute_engine']
+2025-06-27 10:13:29,049 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2025-06-27 10:13:29,853 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oauth-444619/aggregated/instances?alt=json&filter=name+eq+%5Eadblocker%24&maxResults=500 HTTP/11" 200 None
+2025-06-27 10:13:29,905 INFO     ___FILE_ONLY___ No zone specified. Using zone [us-east1-b] for instance: [adblocker].
+
+2025-06-27 10:13:30,264 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oauth-444619/zones/us-east1-b/instances/adblocker?alt=json HTTP/11" 200 None
+2025-06-27 10:13:30,672 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oauth-444619?alt=json HTTP/11" 200 None
+2025-06-27 10:13:30,675 DEBUG    root            OS Login Enabled: False
+2FA Enabled: False
+Security Keys Enabled: False
+Username: jbro
+Third Party User: False
+SSH Security Key Support: None
+Environment: None
+Security Keys:
+
+Signed SSH Key: False
+Require Certificates: False
+
+2025-06-27 10:13:30,676 DEBUG    root            SSH Known Hosts File [/home/jbro/.ssh/google_compute_known_hosts] could not be opened: Unable to read file [/home/jbro/.ssh/google_compute_known_hosts]: [Errno 2] No such file or directory: '/home/jbro/.ssh/google_compute_known_hosts'
+2025-06-27 10:13:30,676 DEBUG    root            Current SSH keys in project: ['drawpdeadredd:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCS751Dyu12f3RbKkueNNK4LREFnP3YZY0Hi+QvtvqrHpRxMa5wXI1rtBtmWBXYay0ifh5AOLGFk0JLYixH6m6+fbaYek8tdNzn6qyYKIRLvZS/S8XEL2daQgjiea9rcnnByGndOry4Zp3L0gvzHmGBYRhvD5Pb9/vtgRAKez2uuaa7IdvFi+/GB8aZii4Q0OYU3/iEjMmWnhHGRhdc4qiLlwwjv2FLTyMFYe0bbUKXJdiv5vt4wCiTIEBCKUjg3WnVwTktRw9tYtuwkQny2dLPzStZypn61Jbghglp0JMoT9zEM4+PD1e5T2yHOXJpchltITcU1Awd2DCX1HB0BkWdsVXTWNtp9rQvTBePDuHLx2AhaTCrLRcnCbrP1npI7RAV5B1/7vTB8HgJSOjr+mv585V4gdB37vmDeb3bU0dwSElRwgk5Ew92FLJHDrSwMm4oAHswpuMQZ90OiQPrxlDSHMHCCCxzl8OaWoQqJRe+TgANVOJOHA/2QK4w3Zil6YM= dropdead@lxbx5ifteen', 'panic:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBZazPZw/or7ZTX6Rf6SAlZsMsuTDDiE3kM3GuHw+N9i06TjtLIlOwDV2xmsv07W3LAWpvaBsCc8dl5v/ltyuCNZ8QXF4i0MWScudhKxFf/S2OKbA7UpbslhIi18F8mY3MrvTLjPUjdsJ3Qii5C6N3JsqGl1BW+QwN2lV4IfDFSUzqAB7T9nnjYOQI+yCaEIIIEMPzEN4KzugwJWkTUh24LXobrj2QGeZVpSCPu090zDX9x1VFZ8CVVJaYL2Z6kC5RQVzdkGhBXxeqT1MKAFbDGhsC/FFEeebdS/Nus1DjNtXFqZLg5Pq/TFPpweIu/snZgkBp7jNFrwAzwyvA0EH+38BzTYEHvsxJYsH2oUH9oIkJNoPCtl66eb2rR6TeKbnhN89lkKymMIqC0WLsB5mtLP3maZ5z3VvSbV+WtfMhkya/tTHpuZwSLR+pLiLOp8uzET110PY6zKGnnS2G6rVrOamuWcomRovMQvzbcebTuCDtmTahuGAQ3jXRTkXHMB0= panic@dontpanic']
+2025-06-27 10:13:30,677 INFO     ___FILE_ONLY___ Updating project ssh metadata...
+2025-06-27 10:13:31,488 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/oauth-444619/setCommonInstanceMetadata?alt=json HTTP/11" 200 None
+2025-06-27 10:13:31,490 DEBUG    root            Operations to inspect: [(<Operation
+ id: 6793638530098858996
+ insertTime: '2025-06-27T08:13:31.161-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1751037210706-6388f1eeec30c-64cc3845-36bf9088'
+ operationType: 'compute.projects.setCommonInstanceMetadata'
+ progress: 0
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/oauth-444619/global/operations/operation-1751037210706-6388f1eeec30c-64cc3845-36bf9088'
+ setCommonInstanceMetadataOperationMetadata: <SetCommonInstanceMetadataOperationMetadata
+ clientOperationId: 'operation-1751037210706-6388f1eeec30c-64cc3845-36bf9088'>
+ startTime: '2025-06-27T08:13:31.167-07:00'
+ status: StatusValueValuesEnum(RUNNING, 2)
+ targetId: 119427172611
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/oauth-444619'
+ user: 'drawpdeadredd@gmail.com'
+ warnings: []>, 3)]
+2025-06-27 10:13:40,304 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /compute/v1/projects/oauth-444619/global/operations/operation-1751037210706-6388f1eeec30c-64cc3845-36bf9088/wait?alt=json HTTP/11" 200 None
+2025-06-27 10:13:40,306 DEBUG    root            Operations to inspect: [(<Operation
+ endTime: '2025-06-27T08:13:40.006-07:00'
+ id: 6793638530098858996
+ insertTime: '2025-06-27T08:13:31.161-07:00'
+ kind: 'compute#operation'
+ name: 'operation-1751037210706-6388f1eeec30c-64cc3845-36bf9088'
+ operationType: 'compute.projects.setCommonInstanceMetadata'
+ progress: 100
+ selfLink: 'https://www.googleapis.com/compute/v1/projects/oauth-444619/global/operations/operation-1751037210706-6388f1eeec30c-64cc3845-36bf9088'
+ setCommonInstanceMetadataOperationMetadata: <SetCommonInstanceMetadataOperationMetadata
+ clientOperationId: 'operation-1751037210706-6388f1eeec30c-64cc3845-36bf9088'
+ perLocationOperations: <PerLocationOperationsValue
+ additionalProperties: [<AdditionalProperty
+ key: 'us-central1-a'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-central1-b'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-central1-c'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-central1-d'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-central1-f'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-east1-a'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-east1-b'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-east1-c'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-east1-d'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-east4-a'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-east4-b'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>, <AdditionalProperty
+ key: 'us-east4-c'
+ value: <SetCommonInstanceMetadataOperationMetadataPerLocationOperationInfo
+ state: StateValueValuesEnum(DONE, 1)>>]>>
+ startTime: '2025-06-27T08:13:31.167-07:00'
+ status: StatusValueValuesEnum(DONE, 0)
+ targetId: 119427172611
+ targetLink: 'https://www.googleapis.com/compute/v1/projects/oauth-444619'
+ user: 'drawpdeadredd@gmail.com'
+ warnings: []>, 3)]
+2025-06-27 10:13:40,307 INFO     ___FILE_ONLY___ Updated [https://www.googleapis.com/compute/v1/projects/oauth-444619].
+
+2025-06-27 10:13:41,088 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oauth-444619?alt=json HTTP/11" 200 None
+2025-06-27 10:13:41,287 INFO     ___FILE_ONLY___ Waiting for SSH key to propagate.
+
+2025-06-27 10:13:41,288 DEBUG    root            Running command [/sbin/ssh -T -i /home/jbro/.ssh/google_compute_engine -o CheckHostIP=no -o HashKnownHosts=no -o HostKeyAlias=compute.4928902874231569832 -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/home/jbro/.ssh/google_compute_known_hosts jbro@35.229.19.70 -- :].
+2025-06-27 10:13:41,288 DEBUG    root            Executing command: ['/sbin/ssh', '-T', '-i', '/home/jbro/.ssh/google_compute_engine', '-o', 'CheckHostIP=no', '-o', 'HashKnownHosts=no', '-o', 'HostKeyAlias=compute.4928902874231569832', '-o', 'IdentitiesOnly=yes', '-o', 'StrictHostKeyChecking=no', '-o', 'UserKnownHostsFile=/home/jbro/.ssh/google_compute_known_hosts', 'jbro@35.229.19.70', '--', ':']
+2025-06-27 10:13:48,375 DEBUG    root            Running command [/sbin/ssh -t -i /home/jbro/.ssh/google_compute_engine -o CheckHostIP=no -o HashKnownHosts=no -o HostKeyAlias=compute.4928902874231569832 -o IdentitiesOnly=yes -o StrictHostKeyChecking=no -o UserKnownHostsFile=/home/jbro/.ssh/google_compute_known_hosts jbro@35.229.19.70].
+2025-06-27 10:13:48,375 DEBUG    root            Executing command: ['/sbin/ssh', '-t', '-i', '/home/jbro/.ssh/google_compute_engine', '-o', 'CheckHostIP=no', '-o', 'HashKnownHosts=no', '-o', 'HostKeyAlias=compute.4928902874231569832', '-o', 'IdentitiesOnly=yes', '-o', 'StrictHostKeyChecking=no', '-o', 'UserKnownHostsFile=/home/jbro/.ssh/google_compute_known_hosts', 'jbro@35.229.19.70']
+2025-06-27 10:17:37,461 DEBUG    root            Chosen display Format:default
+2025-06-27 10:17:37,462 INFO     root            Display format: "default"
+2025-06-27 10:17:37,462 DEBUG    root            SDK update checks are disabled.

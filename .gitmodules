@@ -1,0 +1,30 @@
+[submodule ".local/share/zinit/zinit.git"]
+	path = .local/share/zinit/zinit.git
+	url = https://github.com/zdharma-collective/zinit
+[submodule "auto-venv"]
+	path = auto-venv
+	url = https://github.com/Skylor-Tang/auto-venv
+[submodule ".local/share/zinit/plugins/Skylor-Tang---auto-venv"]
+	path = .local/share/zinit/plugins/Skylor-Tang---auto-venv
+	url = https://github.com/Skylor-Tang/auto-venv
+[submodule ".local/share/zinit/plugins/zdharma-continuum---fast-syntax-highlighting"]
+	path = .local/share/zinit/plugins/zdharma-continuum---fast-syntax-highlighting
+	url = https://github.com/zdharma-continuum/fast-syntax-highlighting
+[submodule ".local/share/zinit/plugins/zdharma-continuum---history-search-multi-word"]
+	path = .local/share/zinit/plugins/zdharma-continuum---history-search-multi-word
+	url = https://github.com/zdharma-continuum/history-search-multi-word
+[submodule ".local/share/zinit/plugins/zdharma-continuum---zinit-annex-as-monitor"]
+	path = .local/share/zinit/plugins/zdharma-continuum---zinit-annex-as-monitor
+	url = https://github.com/zdharma-continuum/zinit-annex-as-monitor
+[submodule ".local/share/zinit/plugins/zdharma-continuum---zinit-annex-bin-gem-node"]
+	path = .local/share/zinit/plugins/zdharma-continuum---zinit-annex-bin-gem-node
+	url = https://github.com/zdharma-continuum/zinit-annex-bin-gem-node
+[submodule ".local/share/zinit/plugins/zdharma-continuum---zinit-annex-patch-dl"]
+	path = .local/share/zinit/plugins/zdharma-continuum---zinit-annex-patch-dl
+	url = https://github.com/zdharma-continuum/zinit-annex-patch-dl
+[submodule ".local/share/zinit/plugins/zdharma-continuum---zinit-annex-rust"]
+	path = .local/share/zinit/plugins/zdharma-continuum---zinit-annex-rust
+	url = https://github.com/zdharma-continuum/zinit-annex-rust
+[submodule ".local/share/zinit/plugins/zsh-users---zsh-autosuggestions"]
+	path = .local/share/zinit/plugins/zsh-users---zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions

@@ -1,0 +1,21 @@
+2025-07-03 20:20:57,280 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2025-07-03 20:20:57,354 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'ssh']
+2025-07-03 20:20:57,356 DEBUG    root            Running [gcloud.compute.ssh] with arguments: [--zone: "us-east1-b", [USER@]INSTANCE: "adblocker"]
+2025-07-03 20:20:57,629 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2025-07-03 20:20:57,977 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oauth-444619/zones/us-east1-b/instances/adblocker?alt=json HTTP/11" 200 None
+2025-07-03 20:20:58,385 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oauth-444619?alt=json HTTP/11" 200 None
+2025-07-03 20:20:58,387 DEBUG    root            OS Login Enabled: False
+2FA Enabled: False
+Security Keys Enabled: False
+Username: jbro
+Third Party User: False
+SSH Security Key Support: None
+Environment: None
+Security Keys:
+
+Signed SSH Key: False
+Require Certificates: False
+
+2025-07-03 20:20:58,388 DEBUG    root            Current SSH keys in project: ['drawpdeadredd:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCS751Dyu12f3RbKkueNNK4LREFnP3YZY0Hi+QvtvqrHpRxMa5wXI1rtBtmWBXYay0ifh5AOLGFk0JLYixH6m6+fbaYek8tdNzn6qyYKIRLvZS/S8XEL2daQgjiea9rcnnByGndOry4Zp3L0gvzHmGBYRhvD5Pb9/vtgRAKez2uuaa7IdvFi+/GB8aZii4Q0OYU3/iEjMmWnhHGRhdc4qiLlwwjv2FLTyMFYe0bbUKXJdiv5vt4wCiTIEBCKUjg3WnVwTktRw9tYtuwkQny2dLPzStZypn61Jbghglp0JMoT9zEM4+PD1e5T2yHOXJpchltITcU1Awd2DCX1HB0BkWdsVXTWNtp9rQvTBePDuHLx2AhaTCrLRcnCbrP1npI7RAV5B1/7vTB8HgJSOjr+mv585V4gdB37vmDeb3bU0dwSElRwgk5Ew92FLJHDrSwMm4oAHswpuMQZ90OiQPrxlDSHMHCCCxzl8OaWoQqJRe+TgANVOJOHA/2QK4w3Zil6YM= dropdead@lxbx5ifteen', 'panic:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDBZazPZw/or7ZTX6Rf6SAlZsMsuTDDiE3kM3GuHw+N9i06TjtLIlOwDV2xmsv07W3LAWpvaBsCc8dl5v/ltyuCNZ8QXF4i0MWScudhKxFf/S2OKbA7UpbslhIi18F8mY3MrvTLjPUjdsJ3Qii5C6N3JsqGl1BW+QwN2lV4IfDFSUzqAB7T9nnjYOQI+yCaEIIIEMPzEN4KzugwJWkTUh24LXobrj2QGeZVpSCPu090zDX9x1VFZ8CVVJaYL2Z6kC5RQVzdkGhBXxeqT1MKAFbDGhsC/FFEeebdS/Nus1DjNtXFqZLg5Pq/TFPpweIu/snZgkBp7jNFrwAzwyvA0EH+38BzTYEHvsxJYsH2oUH9oIkJNoPCtl66eb2rR6TeKbnhN89lkKymMIqC0WLsB5mtLP3maZ5z3VvSbV+WtfMhkya/tTHpuZwSLR+pLiLOp8uzET110PY6zKGnnS2G6rVrOamuWcomRovMQvzbcebTuCDtmTahuGAQ3jXRTkXHMB0= panic@dontpanic', 'jbro:ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDe0L/5DwheOyhwTO4SxBEfMzPFq0WjvKX91rEMIqr5hui61M+8GP12ONIv3/fPYHfoF5DST/ekG9MaU9Zd1/bwYhdrXubPiEdXZX3VMQZl2mn6QOOzpRbFCf1MUem+HIK/Xqc2+JeQKVuzLZVXCsOsNHcQOiDeNp1gD4yP67L8dYiaSMPP8/FS/VWxJX31C91w15RahhQeP7Cy4N/7LwHnbzXaoVE1V0Hp7VwDzhSzYDf1ot0Q5PFetDhtRGlNmbxoPwchtO3RXPbP7pDPZU8WIEAl14Ygk9dKEXQ1VfGN0jsD/4tia2vetu7/mWN6EA9q87tZgshuBJg9xRf1Qt+AFPrS8GOmAzDH9vbXtf9tV+6h3Y+zuZ8ffko0hhYRvI1gTmVeej0rpztuMD0nDPt68FhTjGbc9kR8h50MAIuaV38K/nxcwfEsJlRI/KaaD+uNEMeHItdpHC1oW8b6nby2/e7lkv+vdBMLG7WNJ24Rq+UCMJupXqrgz7GchIsYuus= jbro@Vic15lxbx']
+2025-07-03 20:20:58,388 DEBUG    root            Running command [/sbin/ssh -t -i /home/jbro/.ssh/google_compute_engine -o CheckHostIP=no -o HashKnownHosts=no -o HostKeyAlias=compute.4928902874231569832 -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=/home/jbro/.ssh/google_compute_known_hosts jbro@35.229.19.70].
+2025-07-03 20:20:58,388 DEBUG    root            Executing command: ['/sbin/ssh', '-t', '-i', '/home/jbro/.ssh/google_compute_engine', '-o', 'CheckHostIP=no', '-o', 'HashKnownHosts=no', '-o', 'HostKeyAlias=compute.4928902874231569832', '-o', 'IdentitiesOnly=yes', '-o', 'StrictHostKeyChecking=yes', '-o', 'UserKnownHostsFile=/home/jbro/.ssh/google_compute_known_hosts', 'jbro@35.229.19.70']

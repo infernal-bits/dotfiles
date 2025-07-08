@@ -1,0 +1,14 @@
+2025-06-27 10:08:41,117 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2025-06-27 10:08:41,158 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'login']
+2025-06-27 10:08:41,159 DEBUG    root            Running [gcloud.auth.login] with arguments: []
+2025-06-27 10:08:41,299 DEBUG    requests_oauthlib.oauth2_session Generated new state Q1eUPJVchQUREJ8RrEZWKXpsUuT4tK.
+2025-06-27 10:08:41,300 INFO     ___FILE_ONLY___ Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=32555940559.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=Q1eUPJVchQUREJ8RrEZWKXpsUuT4tK&access_type=offline&code_challenge=cck8snL8tlfytdgBDKsDr3vSgRu6-8nbhIX4RpZenD8&code_challenge_method=S256
+
+
+2025-06-27 10:09:17,849 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+

@@ -1,0 +1,80 @@
+# ╔═══════════════════════════════════════════════════════════════════════════════════════════════════╗
+# ║  ██▓ ███▄    █   █████▒▓█████  ██▀███   ███▄    █  ▄▄▄       ██▓     ██████╗ ██╗████████╗███████╗ ║
+# ║ ▓██▒ ██ ▀█   █ ▓██   ▒ ▓█   ▀ ▓██ ▒ ██▒ ██ ▀█   █ ▒████▄    ▓██▒     ██╔══██╗██║╚══██╔══╝██╔════╝ ║
+# ║ ▒██▒▓██  ▀█ ██▒▒████ ░ ▒███   ▓██ ░▄█ ▒▓██  ▀█ ██▒▒██  ▀█▄  ▒██░     ██████╔╝██║   ██║   ███████╗ ║
+# ║ ░██░▓██▒  ▐▌██▒░▓█▒  ░ ▒▓█  ▄ ▒██▀▀█▄  ▓██▒  ▐▌██▒░██▄▄▄▄██ ▒██░     ██╔══██╗██║   ██║   ╚════██║ ║
+# ║ ░██░▒██░   ▓██░░▒█░    ░▒████▒░██▓ ▒██▒▒██░   ▓██░ ▓█   ▓██▒░██████▒ ██████╔╝██║   ██║   ███████║ ║
+# ║ ░▓  ░ ▒░   ▒ ▒  ▒ ░    ░░ ▒░ ░░ ▒▓ ░▒▓░░ ▒░   ▒ ▒  ▒▒   ▓▒█░░ ▒░▓  ░ ╚═════╝ ╚═╝   ╚═╝   ╚══════╝ ║
+# ║  ▒ ░░ ░░   ░ ▒░ ░       ░ ░  ░  ░▒ ░ ▒░░ ░░   ░ ▒░  ▒   ▒▒ ░░ ░ ▒  ░ ╔══════════════════════════╗ ║
+# ║  ▒ ░   ░   ░ ░  ░ ░       ░     ░░   ░    ░   ░ ░   ░   ▒     ░ ░    ║  github.com/infernalbits ║ ║
+# ║  ░           ░            ░  ░   ░              ░       ░  ░    ░  ░ ╚══════════════════════════╝ ║
+# ╚════Dotfiles Straight From the Depths of Hell══════════════════════════════════════════════════════╝
+
+right_format = """
+[░▒▓](bg:#1e1e2e fg:#eff1f5)\
+$directory\
+[▓▒░](fg:#eff1f5 bg:#1e1e2e)\
+"""
+format = """
+[░▒▓](fg:#eff1f5)\
+$time\
+[](bg:#1e1e2e fg:#eff1f5)\
+$memory_usage\
+$git_commit\
+$git_branch\
+$git_status\
+[](bg:#eff1f5 fg:#1e1e2e)\
+$python\
+[](fg:#eff1f5)\
+$linebreak\
+\n$character"""
+
+#format settings
+add_newline = true
+
+[character]
+success_symbol = '[ ](#eff1f5)'
+error_symbol = '[ ](#d20f39)'
+
+[line_break]
+disabled = true
+#module format settinga
+[directory]
+style = "fg:#1e1e2e bg:#eff1f5"
+format = "[ $path ]($style)"
+truncation_length = 4
+truncation_symbol = "…"
+
+[directory.substitutions]
+".dotfiles" = "󰈙 "
+"Downloads" = " "
+"Pictures" = " "
+
+[memory_usage]
+symbol = "󰘚"
+threshold = -1
+style = "bg:#1e1e2e"
+format = '[[ ($symbol Mem:$ram_pct Swap:$swap_pct) ](fg:#eff1f5 bg:#1e1e2e )]($style)'
+disabled = false
+
+[git_branch]
+symbol = ""
+style = "bg:#1e1e2e"
+format = '[[ $symbol $branch ](fg:#eff1f5 bg:#1e1e2e)]($style)'
+
+[git_status]
+style = "bg:#1e1e2e"
+format = '[[( $all_status $ahead_behind )](fg:#eff1f5 bg:#1e1e2e)]($style)'
+ignore_submodules = true
+
+[python]
+symbol = ""
+style = "bg:#1e1e2e"
+format = '[[ $symbol ($virtualenv) ](fg:#eff1f5 bg:#1e1e2e)]($style)'
+
+
+[time]
+disabled = false
+time_format = "%a %-I:%M%p"                          # Weekday 12Hour:Minute Format
+style = "bg:#eff1f5"
+format = '[[$time ](fg:#1e1e2e bg:#eff1f5)]($style)'

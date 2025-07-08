@@ -1,0 +1,54 @@
+2025-06-27 10:13:06,896 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2025-06-27 10:13:06,919 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances']
+2025-06-27 10:13:06,945 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'instances', 'list']
+2025-06-27 10:13:06,946 DEBUG    root            Running [gcloud.compute.instances.list] with arguments: []
+2025-06-27 10:13:07,388 DEBUG    root            Chosen display Format:    table(
+      name,
+      zone.basename(),
+      machineType.machine_type().basename(),
+      scheduling.preemptible.yesno(yes=true, no=''),
+      networkInterfaces.internal_ip():label=INTERNAL_IP,
+      external_ip():label=EXTERNAL_IP,
+      status
+    )
+2025-06-27 10:13:07,390 INFO     root            Display format: "    table(
+      name,
+      zone.basename(),
+      machineType.machine_type().basename(),
+      scheduling.preemptible.yesno(yes=true, no=''),
+      networkInterfaces.internal_ip():label=INTERNAL_IP,
+      external_ip():label=EXTERNAL_IP,
+      status
+    )"
+2025-06-27 10:13:07,393 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2025-06-27 10:13:08,365 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "GET /compute/v1/projects/oauth-444619/aggregated/instances?alt=json&includeAllScopes=True&maxResults=500&returnPartialSuccess=True HTTP/11" 200 None
+2025-06-27 10:13:08,444 INFO     root            cache collection=compute.instances api_version=v1 params=['project', 'zone', 'instance']
+2025-06-27 10:13:08,503 INFO     ___FILE_ONLY___ NAME
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___        
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ ZONE
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___         
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ MACHINE_TYPE
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___   
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ PREEMPTIBLE
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___   
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ INTERNAL_IP
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___   
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ EXTERNAL_IP
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___    
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ STATUS
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ 
+
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ adblocker
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___   
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ us-east1-b
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___   
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ e2-micro
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___                    
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ 10.142.0.2
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___    
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ 35.229.19.70
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___   
+2025-06-27 10:13:08,504 INFO     ___FILE_ONLY___ RUNNING
+2025-06-27 10:13:08,505 INFO     ___FILE_ONLY___ 
+
+2025-06-27 10:13:08,505 DEBUG    root            SDK update checks are disabled.

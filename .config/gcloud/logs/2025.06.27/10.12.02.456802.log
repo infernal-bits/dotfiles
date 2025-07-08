@@ -1,0 +1,35 @@
+2025-06-27 10:12:02,510 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2025-06-27 10:12:02,529 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'list']
+2025-06-27 10:12:02,531 DEBUG    root            Running [gcloud.projects.list] with arguments: []
+2025-06-27 10:12:02,531 INFO     root            client_filter="None" server_filter="None"
+2025-06-27 10:12:02,583 DEBUG    root            Chosen display Format:
+    table(
+      projectId:sort=1,
+      name,
+      projectNumber
+    )
+
+2025-06-27 10:12:02,583 INFO     root            Display format: "
+    table(
+      projectId:sort=1,
+      name,
+      projectNumber
+    )
+"
+2025-06-27 10:12:02,587 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2025-06-27 10:12:03,585 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=500 HTTP/11" 200 None
+2025-06-27 10:12:03,628 INFO     ___FILE_ONLY___ PROJECT_ID
+2025-06-27 10:12:03,628 INFO     ___FILE_ONLY___     
+2025-06-27 10:12:03,628 INFO     ___FILE_ONLY___ NAME
+2025-06-27 10:12:03,628 INFO     ___FILE_ONLY___    
+2025-06-27 10:12:03,628 INFO     ___FILE_ONLY___ PROJECT_NUMBER
+2025-06-27 10:12:03,628 INFO     ___FILE_ONLY___ 
+
+2025-06-27 10:12:03,628 INFO     ___FILE_ONLY___ oauth-444619
+2025-06-27 10:12:03,629 INFO     ___FILE_ONLY___   
+2025-06-27 10:12:03,629 INFO     ___FILE_ONLY___ Oauth
+2025-06-27 10:12:03,629 INFO     ___FILE_ONLY___   
+2025-06-27 10:12:03,629 INFO     ___FILE_ONLY___ 119427172611
+2025-06-27 10:12:03,629 INFO     ___FILE_ONLY___ 
+
+2025-06-27 10:12:03,629 DEBUG    root            SDK update checks are disabled.

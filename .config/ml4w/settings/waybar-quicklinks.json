@@ -1,0 +1,70 @@
+{
+  "custom/quicklinkempty": {
+    "format": ""
+  },
+  "custom/quicklink1": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/terminal.sh",
+    "tooltip-format": "Open Terminal"
+  },
+  "custom/quicklink2": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/editor.sh",
+    "tooltip-format": "Open Text Editor"
+  },
+  "custom/quicklink3": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/filemanager.sh",
+    "tooltip-format": "Open Filemanager"
+  },
+  "custom/quicklink4": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/browser.sh",
+    "tooltip-format": "Open Browser"
+  },
+  "custom/quicklink5": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/games.sh",
+    "tooltip-format": "Open Games"
+  },
+  "custom/quicklink6": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/graphics.sh",
+    "tooltip-format": "Open Graphic Designer"
+  },
+  "custom/quicklink7": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/hacks.sh",
+    "tooltip-format": "Open Hacking Tools"
+  },
+  "custom/quicklink8": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/code.sh",
+    "tooltip-format": "Open Code Editor"
+  },
+  "custom/quicklink9": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/calculator.sh",
+    "tooltip-format": "Open calculator"
+  },
+  "custom/quicklink10": {
+    "format": "",
+    "on-click": "~/.config/ml4w/settings/email.sh",
+    "tooltip-format": "Open Email Client"
+  },
+  "group/quicklinks": {
+    "orientation": "horizontal",
+    "modules": [
+      "custom/quicklinkempty",
+      "custom/quicklink1",
+      "custom/quicklink4",
+      "custom/quicklink3",
+      "custom/quicklink8",
+      "custom/quicklink6",
+      "custom/quicklink2",
+      "custom/quicklink7",
+      "custom/quicklink5",
+      "custom/quicklinkempty"
+    ]
+  }
+}
