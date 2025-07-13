@@ -3020,3 +3020,91 @@ ValueError: The checkpoint 'not-found' used by style 'Anime (NoobAI XL)' is not 
 2025-07-08 04:05:36,954 INFO Checking for latest plugin version at https://api.interstice.cloud
 2025-07-08 04:05:38,904 INFO Connecting to http://127.0.0.1:8188
 2025-07-08 04:05:39,429 INFO Plugin is up to date!
+2025-07-08 15:23:07,298 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-08 15:23:07,319 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-08 15:23:07,320 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-08 15:23:07,320 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-08 15:23:07,321 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-08 15:23:07,545 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-08 15:23:09,531 INFO Connecting to http://127.0.0.1:8188
+2025-07-08 15:23:09,779 INFO Plugin is up to date!
+2025-07-08 15:24:41,330 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-08 15:24:41,349 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-08 15:24:41,350 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-08 15:24:41,350 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-08 15:24:41,351 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-08 15:24:41,543 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-08 15:24:43,817 INFO Connecting to http://127.0.0.1:8188
+2025-07-08 15:24:53,473 ERROR Connection timed out, the server took too long to respond
+Traceback (most recent call last):
+  File "/home/jbro/.local/share/krita/pykrita/ai_diffusion/updates.py", line 140, in _handle_errors
+    return await func()
+           ^^^^^^^^^^^^
+  File "/home/jbro/.local/share/krita/pykrita/ai_diffusion/updates.py", line 73, in _check
+    result = await self._net.get(
+             ^^^^^^^^^^^^^^^^^^^^
+        f"{self.api_url}/plugin/latest?version={self.current_version}", timeout=10
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+ai_diffusion.network.NetworkError: Connection timed out, the server took too long to respond
+2025-07-08 18:07:21,408 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-08 18:07:21,425 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-08 18:07:21,426 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-08 18:07:21,426 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-08 18:07:21,427 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-08 18:07:21,608 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-08 18:07:23,478 INFO Connecting to http://127.0.0.1:8188
+2025-07-08 18:07:24,012 INFO Plugin is up to date!
+2025-07-11 18:39:44,818 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-11 18:39:44,840 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-11 18:39:44,840 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-11 18:39:44,840 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-11 18:39:44,841 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-11 18:39:45,029 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-11 18:39:47,055 INFO Connecting to http://127.0.0.1:8188
+2025-07-11 18:39:47,686 INFO Plugin is up to date!
+2025-07-11 18:41:23,562 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-11 18:41:23,580 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-11 18:41:23,581 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-11 18:41:23,581 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-11 18:41:23,582 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-11 18:41:23,751 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-11 18:41:25,801 INFO Connecting to http://127.0.0.1:8188
+2025-07-11 18:41:33,775 INFO Plugin is up to date!
+2025-07-12 00:50:17,472 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-12 00:50:17,490 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-12 00:50:17,491 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-12 00:50:17,491 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-12 00:50:17,492 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-12 00:50:17,682 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-12 00:50:19,714 INFO Connecting to http://127.0.0.1:8188
+2025-07-12 00:50:25,663 INFO Plugin is up to date!
+2025-07-12 23:13:47,940 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-12 23:13:47,961 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-12 23:13:47,961 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-12 23:13:47,962 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-12 23:13:47,962 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-12 23:13:48,140 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-12 23:13:50,248 INFO Connecting to http://127.0.0.1:8188
+2025-07-12 23:13:58,579 ERROR Connection closed
+Traceback (most recent call last):
+  File "/home/jbro/.local/share/krita/pykrita/ai_diffusion/updates.py", line 140, in _handle_errors
+    return await func()
+           ^^^^^^^^^^^^
+  File "/home/jbro/.local/share/krita/pykrita/ai_diffusion/updates.py", line 73, in _check
+    result = await self._net.get(
+             ^^^^^^^^^^^^^^^^^^^^
+        f"{self.api_url}/plugin/latest?version={self.current_version}", timeout=10
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+ai_diffusion.network.NetworkError: Connection closed
+2025-07-13 04:43:06,638 INFO Loaded 11 sampler presets from /home/jbro/.local/share/krita/pykrita/ai_diffusion/presets/samplers.json
+2025-07-13 04:43:06,656 INFO Extension initialized, Version: 1.36.1, Python: 3.13.5 (main, Jun 21 2025, 15:00:45) [GCC 15.1.1 20250425]
+2025-07-13 04:43:06,657 INFO Loading settings from /home/jbro/.local/share/krita/ai_diffusion/settings.json
+2025-07-13 04:43:06,657 INFO Found server installation vincomplete at /home/jbro/.local/share/krita/ai_diffusion/server
+2025-07-13 04:43:06,658 INFO Loaded 1 model files from /home/jbro/.local/share/krita/ai_diffusion/database/loras.json
+2025-07-13 04:43:06,815 INFO Checking for latest plugin version at https://api.interstice.cloud
+2025-07-13 04:43:08,712 INFO Connecting to http://127.0.0.1:8188
+2025-07-13 04:43:09,185 INFO Plugin is up to date!
