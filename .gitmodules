@@ -28,3 +28,6 @@
 [submodule ".local/share/zinit/plugins/zsh-users---zsh-autosuggestions"]
 	path = .local/share/zinit/plugins/zsh-users---zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "qmkfw"]
+	path = qmkfw
+	url = https://github.com/qmk/qmk_firmware
